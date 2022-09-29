@@ -21,7 +21,7 @@
     "react-helmet": "^6.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.1",
-    "react-snapshot": "^1.0.4",
+    "react-snap": "^1.23.0",
     "react-transition-group": "^4.4.1",
     "react-typical": "^0.1.3",
     "sweetalert2": "^11.4.10",
@@ -29,18 +29,18 @@
     "use-dencrypt-effect": "1.0.1"
   },
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot",
+    "build": "react-scripts build && react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "reactSnapshot": {
+  "reactSnap": {
     "exclude": [
       "/resume"
     ],
-    "snapshotDelay": 1000
+    "snapDelay": 1000
   },
   "eslintConfig": {
     "extends": "react-app"
