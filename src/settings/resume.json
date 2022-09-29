@@ -1,0 +1,49 @@
+{
+    "basics": {
+        "name": "Anand Adhikari",
+        "label": "Web Developer",
+        "email": "anandadhikari02@gmail.com",
+        "phone": "9634211453",
+        "x_title": "Hello, I'm",
+        "job1": "Web",
+        "job2": "Developer",
+        "description": "Hello! I'm Anand! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
+        "summary": "based in India.",
+        "keywords": "personal,website,portfolio,template,webdev,web,developer,india,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
+        "url": "",
+        "location": {
+            "address": "XXX-XXX-XXX",
+            "postalCode": "248001",
+            "city": "Dehradun",
+            "country": "India",
+            "countryCode": "IN",
+            "region": "Uttrakhand"
+        },
+        "profiles": [
+            {
+                "network": "Google",
+                "username": "anandadhikari02@gmail.com",
+                "url": "mailto:anandadhikari02@gmail.com",
+                "x_icon": "fab fa-google"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "anandadhikari",
+                "url": "https://www.linkedin.com/in/anand-adhikari-935975179",
+                "x_icon": "fab fa-linkedin-in"
+            },
+            {
+                "network": "GitHub",
+                "username": "anandadhikari",
+                "url": "https://github.com/anandadhikari",
+                "x_icon": "fab fa-github"
+            },
+            {
+                "network": "Discord",
+                "username": "Anand Adhikari#4711",
+                "url": "https://discord.com",
+                "x_icon": "fab fa-discord"
+            }
+        ]
+    }
+}
