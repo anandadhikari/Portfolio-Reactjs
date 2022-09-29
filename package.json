@@ -32,15 +32,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build && react-snap",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "reactSnap": {
-    "exclude": [
-      "/resume"
-    ],
-    "snapDelay": 1000
   },
   "eslintConfig": {
     "extends": "react-app"
