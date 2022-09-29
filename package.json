@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "homepage": "http://anandadhikari.github.io/Portfolio-Reactjs",
   "description": "A ReactJS Portfolio. Credits to Developer Community",
-  "repository": "",
+  "repository": "https://github.com/anandadhikari/Portfolio-Reactjs",
   "author": "Anand Adhikari",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
@@ -29,11 +29,11 @@
     "use-dencrypt-effect": "1.0.1"
   },
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && react-snapshot",
     "test": "react-scripts test",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "reactSnapshot": {
