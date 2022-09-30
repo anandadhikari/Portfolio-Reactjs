@@ -15,8 +15,7 @@ import Portfolio from '../../assets/recentprojects/portfolio.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
-    maxWidth: '100vw',
-
+    maxWidth: '100vw'
   },
 }));
 
@@ -30,6 +29,7 @@ export const Works = () => {
       application.`,
       alter: 'React Quiz',
       image: `${Quiz}`,
+      url: "http://quiz-reactjs.herokuapp.com/"
     },
     { 
       id: 2,
@@ -37,6 +37,7 @@ export const Works = () => {
       description: `An E-Commerce web app that uses Stripe for payments.Built using MERN stack.`,
       alter: 'Sneakers',
       image: `${Sneakers}`,
+      url: "https://sneakers-mern.herokuapp.com/"
     },
     { 
       id: 3,
@@ -44,6 +45,7 @@ export const Works = () => {
       description: `It’s a basic team management application that can create team members and assign team leads and form different teams.Build Using React and SpringBoot`,
       alter: 'Team Management',
       image: `${Team}`,
+      url: "https://github.com/anandadhikari/Team_Management/"
     },
     { 
       id: 4,
@@ -51,6 +53,7 @@ export const Works = () => {
       description: `A portfolio project built using React Js.`,
       alter: 'Portfolio',
       image: `${Portfolio}`,
+      url: "https://portfolio-reactjs-tau.vercel.app/"
     }
   ]);
 
@@ -60,7 +63,9 @@ export const Works = () => {
         {projects.map((project) => (
           <div className="project" key={ project.id }>
             <div className="__img_wrapper">
-              <img src={ project.image } alt={ project.alter }/>
+            <a href={ project.url } target="_blank" rel="noopener noreferrer">
+            <img src={ project.image } alt={ project.alter }/>
+            </a>  
             </div>
             <div className="__content_wrapper">
               <h3 className="title">

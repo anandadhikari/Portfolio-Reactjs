@@ -19,7 +19,7 @@
   margin: inherit;
   margin-bottom: 6px;
 }
-.__img_wrapper > img {
+.__img_wrapper > a > img {
   width: 100%;
 }
 .__content_wrapper {
